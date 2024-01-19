@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6857b00bcc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>UI Redesign Spotify | Lucas Von</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+          <button class="menu-btn" id="menu-close">
+            <i class="bx bx-log-out-circle"></i>
+          </button>
+          <i class="fa-brands fa-spotify"></i>
+          <a href="#">Spotify</a>
+        </div>
+
+        <div class="menu">
+          <h5>Menu</h5>
+          <ul>
+            <li>
+              <i class="bx bxs-bolt-circle"></i>
+              <a href="#">Explorar</a>
+            </li>
+            <li>
+              <i class="bx bxs-volume-full"></i>
+              <a href="#">Gêneros</a>
+            </li>
+            <li>
+              <i class="bx bxs-album"></i>
+              <a href="#">Álbums</a>
+            </li>
+            <li>
+              <i class="bx bxs-microphone"></i>
+              <a href="#">Artistas</a>
+            </li>
+            <li>
+              <i class="bx bxs-radio"></i>
+              <a href="#">Podcasts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <h5>Biblioteca</h5>
+          <ul>
+            <li>
+              <i class="bx bx-undo"></i>
+              <a href="#">Recentes</a>
+            </li>
+            <li>
+              <i class="bx bxs-photo-album"></i>
+              <a href="#">Álbums</a>
+            </li>
+            <li>
+              <i class="bx bxs-heart"></i>
+              <a href="#">Favoritas</a>
+            </li>
+            <li>
+              <i class="bx bxs-folder"></i>
+              <a href="#">Local</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <h5>Playlist</h5>
+          <ul>
+            <li>
+              <i class="bx bxs-plus-square"></i>
+              <a href="#">Nova Playlist</a>
+            </li>
+            <li>
+              <i class="bx bxs-caret-right-circle"></i>
+              <a href="#">Melhores de 2024</a>
+            </li>
+            <li>
+              <i class="bx bxs-caret-right-circle"></i>
+              <a href="#">Melhores de 2023</a>
+            </li>
+            <li>
+              <i class="bx bxs-caret-right-circle"></i>
+              <a href="#">Minha Playlist</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="playing">
+          <div class="top">
+            <img src="assets/apple_logo_icon_147318.png" />
+            <h4>Apple<br />Iphone 13</h4>
+          </div>
+          <div class="bottom">
+            <i class="bx bx-podcast"></i>
+            <p>Tocando no Dispositivo</p>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <header>
+          <div class="nav-links">
+            <button class="menu-btn" id="menu-open">
+              <i class="bx bx-menu"></i>
+            </button>
+            <a href="#">Música</a>
+            <a href="#">Live</a>
+            <a href="#">Podcast</a>
+          </div>
+
+          <div class="search">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Pesquise aqui" />
+          </div>
+        </header>
+
+        <div class="trending">
+          <div class="left">
+            <h5>Música em Alta</h5>
+            <div class="info">
+              <h2>LIMBO</h2>
+              <h4>Keshi</h4>
+              <h5>63 Milhões de Plays</h5>
+              <div class="buttons">
+                <button>Ouça Agora</button>
+                <i class="bx bxs-heart"></i>
+              </div>
+            </div>
+          </div>
+          <img src="assets/keshi_album.webp" />
+        </div>
+
+        <div class="playlist">
+          <div class="genres">
+            <div class="header">
+              <h5>Genres</h5>
+              <a href="#">Veja todos</a>
+            </div>
+
+            <div class="items">
+              <div class="item">
+                <p>Hyper<br />Pop</p>
+              </div>
+              <div class="item">
+                <p>Drum<br />and Bass</p>
+              </div>
+              <div class="item">
+                <p>Rock<br />Nacional</p>
+              </div>
+              <div class="item">
+                <p>Hip Hop<br />Rap</p>
+              </div>
+              <div class="item">
+                <p>Indie<br />Alternativo</p>
+              </div>
+              <div class="item">
+                <p>Clássicas<br />Period</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-list">
+            <div class="header">
+              <h5>Top Músicas</h5>
+              <a href="#">Veja tudo</a>
+            </div>
+
+            <div class="items">
+              <div class="item">
+                <div class="info">
+                  <p>01</p>
+                  <img src="assets/trench.jpg" />
+                  <div class="details">
+                    <h5>Morph</h5>
+                    <p>Twenty One Pilots</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>04:18</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bxs-plus-square"></i>
+                </div>
+              </div>
+              <div class="item">
+                <div class="info">
+                  <p>02</p>
+                  <img src="assets/Lil-Nas-X-J-Christ.webp" />
+                  <div class="details">
+                    <h5>J CHRIST</h5>
+                    <p>Lil Nas X</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>02:33</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bxs-plus-square"></i>
+                </div>
+              </div>
+              <div class="item">
+                <div class="info">
+                  <p>03</p>
+                  <img src="assets/bittersweet.jpg" />
+                  <div class="details">
+                    <h5>Oldschool</h5>
+                    <p>Yun Li</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>04:22</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bxs-plus-square"></i>
+                </div>
+              </div>
+              <div class="item">
+                <div class="info">
+                  <p>04</p>
+                  <img src="assets/royalblood.jpg" />
+                  <div class="details">
+                    <h5>Out of the Black</h5>
+                    <p>Royal Blood</p>
+                  </div>
+                </div>
+                <div class="actions">
+                  <p>03:59</p>
+                  <div class="icon">
+                    <i class="bx bxs-right-arrow"></i>
+                  </div>
+                  <i class="bx bxs-plus-square"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="right-section">
+        <div class="profile">
+          <i class="bx bxs-bell"></i>
+          <i class="bx bxs-cog"></i>
+          <div class="user">
+            <div class="left">
+              <img src="assets/euu.jpg" />
+            </div>
+            <div class="right">
+              <h5>Lucas Von</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-player">
+          <div class="top-section">
+            <div class="header">
+              <h5>Player</h5>
+              <i class="bx bxs-playlist"></i>
+            </div>
+            <div class="song-info">
+              <img src="assets/spiderman.jpg" />
+              <div class="description">
+                <h3>All The Way Live</h3>
+                <h5>Metro Boomin, Future, Lil Uzi Vert</h5>
+                <p>Best of 2024</p>
+              </div>
+              <div class="progress">
+                <p>02:00</p>
+                <div class="active-line"></div>
+                <div class="deactive-line"></div>
+                <p>02:05</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="player-actions">
+            <div class="buttons">
+              <i class="bx bx-repeat"></i>
+              <i class="bx bx-first-page"></i>
+              <i class="bx bxs-right-arrow play-button"></i>
+              <i class="bx bx-last-page"></i>
+              <i class="bx bx-transfer-alt"></i>
+            </div>
+            <div class="lyrics">
+              <i class="bx bx-chevron-up"></i>
+              <h5>Letra</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
